@@ -13,7 +13,7 @@ class App < Sinatra::Base
       return @db
     end
 
-    get '/' do        
+    get '/todo' do        
         erb(:'todos/index')
     end
 
